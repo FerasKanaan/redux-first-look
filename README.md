@@ -1,14 +1,16 @@
-First Look at Redux
+## First Look at Redux
+_____
 
-For this project I used the create-react-app command to generate a scaffold with all the necessary React dependencies and scripts. Check out the npm docs
+We are starting with a copy of the mini React app from the React-In-Theory lesson.
 
-For details on what the scripts are doing behind the senes, check out the react-scripts documentation
-Project Setup
+For this starter kit I worked off of the [`create-react-app`](https://github.com/facebookincubator/create-react-app) command to generate a scaffold with all the necessary React dependencies and scripts.
 
-Because we are using the create-react-app setup, there is no need to run npm install.
+For details on what the scripts are doing behind the scenes, check out the [react-scripts documentation](https://www.npmjs.com/package/react-scripts).  
 
-Kick things off directly with:
-npm start
+### Project Setup
+
+Because we are using the create-react-app setup we can kick things off directly with:  
+`npm start`
 
 Visit http://localhost:3000 to view the app in a browser.
 
