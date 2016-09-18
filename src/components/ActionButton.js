@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 
-class ActionButton extends Component {
+export default class ActionButton extends Component {
   render () {
+    const { text, handleClick } = this.props
     return (
-      <button className="ActionButton" onClick={this.props.handleClick}>
-        <span>{this.props.text}</span>
+      <button className="ActionButton" onClick={handleClick}>
+        <span>{text}</span>
       </button>
     )
   }
 }
-
-export default ActionButton

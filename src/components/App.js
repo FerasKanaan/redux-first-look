@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
-import { render } from 'react-dom'
 import LikesCounter from './LikesCounter.js'
 
-class App extends Component {
+export default class App extends Component {
   render () {
+    const { state, incrementLike, decrementLike} = this.props
     return (
       <section className="container">
         <h1>Count Some Likes</h1>
-        <LikesCounter initialCount={0}/>
+        <LikesCounter   initialCount={state.likes}
+                        handleIncrement={incrementLike}
+                        handleDecrement={decrementLike}/>
       </section>
     )
   }
 }
-
-render( <App />, document.getElementById('application'))
