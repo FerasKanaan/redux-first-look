@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ActionButton from './ActionButton.js'
 
-class LikesCounter extends Component {
+export default class LikesCounter extends Component {
   render () {
     const { initialCount, handleIncrement, handleDecrement } = this.props
     return (
@@ -15,5 +15,3 @@ class LikesCounter extends Component {
     )
   }
 }
-
-export default LikesCounter

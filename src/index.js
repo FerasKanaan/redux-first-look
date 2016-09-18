@@ -12,7 +12,7 @@ const target = document.getElementById('application')
 
 const render = () => ReactDOM.render(
   <App
-    value={store.getState()}
+    state={store.getState()}
     incrementLike={() => store.dispatch({ type: 'INCREMENT' })}
     decrementLike={() => store.dispatch({ type: 'DECREMENT' })}
   />,
