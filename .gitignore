@@ -31,6 +31,8 @@ build/Release
 node_modules
 jspm_packages
 
+**/node_modules
+
 # Optional npm cache directory
 .npm
 
@@ -39,3 +41,6 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+.DS_Store
+**/.DS_Store
